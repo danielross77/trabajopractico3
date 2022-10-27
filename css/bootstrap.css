@@ -6,6 +6,55 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+ #circulos{
+  background-color: beige;
+align-items: center;
+margin: 5% 10% 5% 10%;
+border: 1px solid black;
+padding-top: 25px;
+
+
+text-align: center;
+
+ }
+
+ #titulo{
+  font-family: 'Alegreya Sans', sans-serif;
+  
+  
+ }
+ 
+#linea {
+  background-color: 
+  
+  
+}
+  
+  
+
+  
+  
+  
+
+
+.ping {
+  text-align: center;
+}
+#ping2 {
+  
+  text-align: center;
+  margin: 2% 10% 2% 10%
+  
+
+  
+
+}
+
+
+
+
+
+
 
 :root {
   --bs-blue: #0d6efd;
@@ -80,6 +129,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -161,8 +211,8 @@ h6, .h6 {
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin-top: 10px;
+ 
 }
 
 abbr[title] {
@@ -214,6 +264,9 @@ blockquote {
 b,
 strong {
   font-weight: bolder;
+  font-size: 50px;
+  font-family: 'Alegreya Sans', sans-serif;
+
 }
 
 small, .small {
@@ -302,7 +355,8 @@ figure {
 
 img,
 svg {
-  vertical-align: middle;
+  align-items: center;
+  margin-bottom: 0%;
 }
 
 table {
@@ -666,12 +720,13 @@ progress {
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1320px;
+    text-align: center;
   }
 }
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
-  display: flex;
+  display: flex;align-content: center;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
@@ -684,6 +739,7 @@ progress {
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
+  text-align: center;
 }
 
 .col {
@@ -872,6 +928,7 @@ progress {
 .g-3,
 .gy-3 {
   --bs-gutter-y: 1rem;
+  justify-content: center;
 }
 
 .g-4,
@@ -7094,6 +7151,9 @@ textarea.form-control-lg {
 
 .shadow-sm {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  text-align: center;
+  
+
 }
 
 .shadow-lg {
@@ -7455,7 +7515,7 @@ textarea.form-control-lg {
 }
 
 .align-items-center {
-  align-items: center !important;
+  
 }
 
 .align-items-baseline {
