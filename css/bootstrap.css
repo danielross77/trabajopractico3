@@ -9,46 +9,45 @@
  #circulos{
   background-color: beige;
 align-items: center;
-margin: 5% 10% 5% 10%;
+margin: 0% 10% 5% 10%;
 border: 1px solid black;
-padding-top: 25px;
-
-
+padding-top: 2%;
 text-align: center;
+position: relative;
 
- }
+}
 
  #titulo{
   font-family: 'Alegreya Sans', sans-serif;
-  
-  
- }
+  }
  
-#linea {
-  background-color: 
+.ping3 {
   
-  
-}
-  
-  
-
-  
-  
-  
-
-
+  background-color: #000;
+  height: 5px;
+  position: relative;
+    top: 78px;
+    width: 100%
+    
+ }
 .ping {
   text-align: center;
 }
 #ping2 {
   
   text-align: center;
-  margin: 2% 10% 2% 10%
+  margin: 2% 20% 2% 20%
   
-
-  
+}
+@media(max-width : 768px){
+  .ping3 {
+     flex-direction: column;
+    
+  }
 
 }
+
+
 
 
 
@@ -211,7 +210,9 @@ h6, .h6 {
 }
 
 p {
-  margin-top: 10px;
+  margin: 10px;
+  text-align: revert
+  ;
  
 }
 
@@ -705,6 +706,7 @@ progress {
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
+    text-align: center;
   }
 }
 @media (min-width: 992px) {
@@ -731,6 +733,7 @@ progress {
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
+  
 }
 .row > * {
   flex-shrink: 0;
@@ -754,6 +757,9 @@ progress {
 .row-cols-1 > * {
   flex: 0 0 auto;
   width: 100%;
+  @media (max-with) {768 px
+    
+  }
 }
 
 .row-cols-2 > * {
@@ -965,7 +971,7 @@ progress {
   }
   .row-cols-sm-2 > * {
     flex: 0 0 auto;
-    width: 50%;
+    width: 100%;
   }
   .row-cols-sm-3 > * {
     flex: 0 0 auto;
@@ -1167,6 +1173,7 @@ progress {
   .col-md-3 {
     flex: 0 0 auto;
     width: 25%;
+    padding: 0%;
   }
   .col-md-4 {
     flex: 0 0 auto;
@@ -2330,7 +2337,7 @@ textarea.form-control-lg {
   -moz-appearance: none;
   appearance: none;
   -webkit-print-color-adjust: exact;
-  color-adjust: exact;
+  accent-color: exact;
   print-color-adjust: exact;
 }
 .form-check-input[type=checkbox] {
@@ -7131,6 +7138,7 @@ textarea.form-control-lg {
 
 .d-table-cell {
   display: table-cell !important;
+  position: fixed;
 }
 
 .d-flex {
@@ -7514,7 +7522,7 @@ textarea.form-control-lg {
   align-items: flex-end !important;
 }
 
-.align-items-center {
+.align-items-center {text-align: center;
   
 }
 
@@ -7697,6 +7705,8 @@ textarea.form-control-lg {
 .my-5 {
   margin-top: 3rem !important;
   margin-bottom: 3rem !important;
+  margin: 5% 10% 2% 10%
+  
 }
 
 .my-auto {
@@ -8276,6 +8286,7 @@ textarea.form-control-lg {
 .bg-dark {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  margin: 0% 10% 0% 10%;
 }
 
 .bg-black {
